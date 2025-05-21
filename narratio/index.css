@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'texto';
+    src: url(ArcherBookPro.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'texto';
+    src: url(ArcherBookPro.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+}
+
+
+.barra {
+    display: inline-block;
+    background-color: rgb(10, 10, 10);
+    padding: 15px 0;
+    text-align: center;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: padding 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.barra.reduzida {
+    padding:0px;
+}
+
+.logo {
+    transition: transform 0.1s ease, filter 0.2s ease;
+}
+
+.logo:hover {
+    transform:scale(1.1);
+    filter:brightness(1.3);
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 0px;
+    margin-top: 150px;
+}
+
+.imagens {
+    flex: 1;
+    min-width: 350px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0px;
+}
+
+.imagens img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto
+}
+
+.imagens .legenda {
+    font-family: 'texto', 'Courier New', 'Times New Roman', serif;
+    font-style: bold;
+    color: #000000;
+    font-size: 40px;
+    margin-top: 8px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.legenda {
+    margin-bottom: 2px;
+    padding-bottom: 0;
+    width: 70px;
+}
+
+.imagens {
+    transition: transform 0.1s ease, filter 0.2s ease;
+}
+
+.imagens:hover {
+    transform:scale(1.02);
+    filter:brightness(0.8);
+}
+
+.legenda2 {
+    font-family: 'texto', 'Courier New', 'Times New Roman', serif;
+    width: 20px;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-top: 2px;
+    padding-top: 0px;
+}
+
+.rodape{
+    display: inline-block;
+    background-color: rgb(10, 10, 10);
+    padding: 50px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+.rodapetexto {
+    font-family: 'texto', 'Courier New', 'Times New Roman', serif;
+    color: rgb(145, 145, 145);
+    text-align: center;
+}
+
+.abc:hover {
+    filter:brightness(100);
+}
+
+.ddd:hover {
+    filter:brightness(100);
+}
+
+.imagem-principal {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.conteudo-noticia {
+    flex-grow: 1;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    line-height: 1.6;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+
+.titulo-noticia {
+    font-family: 'texto', sans-serif; 
+    font-size: 3.8em; 
+    text-align: center; 
+    color: #000000; 
+    margin-top: 0; 
+    margin-bottom: 20px; 
+    line-height: 1.2; 
+}
+
+
+.texto-noticia {
+    font-size: 25px;
+    font-family: 'texto', sans-serif; 
+    color: #000000; 
+    text-align: left; 
+}
+
+.imagem-curiosidade {
+    max-width: 50%;
+    height: auto;    
+    display: block;  
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 1%;
+    box-shadow: 5px 5px 10px 2px #888888;
+    transition: transform 0.1s ease, filter 0.2s ease;
+}
+
+.imagem-curiosidade:hover {
+    transform:scale(1.1);
+}
